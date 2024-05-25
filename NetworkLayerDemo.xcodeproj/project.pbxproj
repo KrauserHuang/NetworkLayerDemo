@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F57EDDA2C01CA8D007D8D6E /* CollectionViewDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F57EDD92C01CA8D007D8D6E /* CollectionViewDemoViewController.swift */; };
 		4F73B8662C01B6AF00E0FB32 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4F73B8652C01B6AF00E0FB32 /* Alamofire */; };
 		4F73B8682C01B6AF00E0FB32 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 4F73B8672C01B6AF00E0FB32 /* AlamofireDynamic */; };
 		4FB285182BC24542009F4090 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB285172BC24542009F4090 /* AppDelegate.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F57EDD92C01CA8D007D8D6E /* CollectionViewDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewDemoViewController.swift; sourceTree = "<group>"; };
 		4FB285142BC24542009F4090 /* NetworkLayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkLayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FB285172BC24542009F4090 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FB285192BC24542009F4090 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +51,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F57EDD82C01CA6B007D8D6E /* CollectionViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4F57EDD92C01CA8D007D8D6E /* CollectionViewDemoViewController.swift */,
+			);
+			path = CollectionViewDemo;
+			sourceTree = "<group>";
+		};
 		4FB2850B2BC24542009F4090 = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +78,7 @@
 		4FB285162BC24542009F4090 /* NetworkLayerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4F57EDD82C01CA6B007D8D6E /* CollectionViewDemo */,
 				4FD5D9492BDE37FC00EE5C4E /* Main */,
 				4FB2852B2BC2457E009F4090 /* NetworkLayer */,
 				4FB285172BC24542009F4090 /* AppDelegate.swift */,
@@ -181,6 +192,7 @@
 				4FB2851C2BC24542009F4090 /* ViewController.swift in Sources */,
 				4FB285182BC24542009F4090 /* AppDelegate.swift in Sources */,
 				4FB2851A2BC24542009F4090 /* SceneDelegate.swift in Sources */,
+				4F57EDDA2C01CA8D007D8D6E /* CollectionViewDemoViewController.swift in Sources */,
 				4FB2852D2BC24872009F4090 /* APIHandler.swift in Sources */,
 				4FD5D9482BDE375B00EE5C4E /* ViewModel.swift in Sources */,
 				4FB2852F2BC42E2F009F4090 /* Endpoint.swift in Sources */,
